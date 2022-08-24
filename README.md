@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
-> The project designed to improve coding, design skills and upgrading knowledgments on CSS, HTML, JavaScript, webpack, modules.
+> The project designed to improve coding and upgrading knowledgments on CSS, HTML, JavaScript, webpack, modules.
 
 ## Built With
 - Languages used: HTML, CSS, javascript, webpack.
