@@ -24,11 +24,13 @@ git clone https://github.com/username-forGithub/leaderboard.git
 ```
 2. Open terminal and cd into project
 ```bash
-
 cd leaderboard
-
 ```
 3. Command line:
+```bash
+npm run start
+```
+4. Command line:
 ```bash
 npm run start
 ```
