@@ -28,7 +28,7 @@ cd leaderboard
 ```
 3. Command line:
 ```bash
-npm run start
+npm install
 ```
 4. Command line:
 ```bash
