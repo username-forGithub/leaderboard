@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Leaderboard</title>
 </head>
 <body>
     <div class="wrapper">
@@ -11,20 +11,15 @@
         <div class="inner-wrapper">
             <div class="left">
                 <div class="recent-scores-wrapper">
-                    <h3>Recent scores</h3><button type="button">Refresh</button>
+                    <h3>Recent scores</h3><button class="refresh" type="button">Refresh</button>
                 </div>
-                <ul>
-                    <li><span class="name">Name: </span><span class="score">100</span></li>
-                    <li><span class="name">Name: </span><span class="score">20</span></li>
-                    <li><span class="name">Name: </span><span class="score">50</span></li>
-                    <li><span class="name">Name: </span><span class="score">75</span></li>
-                </ul>
+                <ul></ul>
             </div>
             <div class="right">
                 <h3>Add your score</h3>
-                <form action="#">
-                    <input type="text" placeholder="Your name">
-                    <input type="number" placeholder="Your score">
+                <form class="submit-wrapper">
+                    <input required class="username" type="text" placeholder="Your name">
+                    <input required class="userscore" type="number" placeholder="Your score">
                     <button type="submit">Submit</button>
                 </form>
             </div>

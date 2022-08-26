@@ -43,12 +43,12 @@ button {
   margin-right: 50px;
 }
 
-form {
+.submit-wrapper {
   display: flex;
   flex-direction: column;
 }
 
-form input {
+.submit-wrapper input {
   margin-bottom: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -57,12 +57,12 @@ form input {
   border: 2px solid #000;
 }
 
-form input::placeholder {
+.submit-wrapper input::placeholder {
   color: #000;
   font-weight: 700;
 }
 
-form button {
+.submit-wrapper button {
   margin-left: auto;
 }
 
