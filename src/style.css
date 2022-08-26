@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #53e22b;
-  background-blend-mode:lighten;
+  background-blend-mode: lighten;
   min-height: 100vh;
 }
 
@@ -29,7 +29,7 @@ button {
   box-shadow: 3px 3px 0 1px #000;
 }
 
-.wrapper { 
+.wrapper {
   max-width: 800px;
   width: 100%;
   padding-bottom: 50px;
@@ -102,18 +102,20 @@ ul li:nth-child(even) {
   background-color: rgba(159, 157, 157, 0.3);
 }
 
-@media(max-width:768px){
-  .inner-wrapper{
-    flex-direction:column-reverse;
+@media (max-width: 768px) {
+  .inner-wrapper {
+    flex-direction: column-reverse;
   }
-  .right {    
-    margin-right: 0px;
+
+  .right {
+    margin-right: 0;
   }
+
   h1 {
     font-size: 36px;
     margin-left: 20px;
   }
-  
+
   h3 {
     font-size: 26px;
   }
